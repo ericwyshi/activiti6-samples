@@ -57,7 +57,6 @@ public class DemoMain {
             List<Task> list = taskService.createTaskQuery().list();
             LOGGER.info("待处理任务数量 [{}] ", list.size());
             for (Task task : list) {
-
                 LOGGER.info("待处理任务 [{}]", task.getName());
                 Map<String, Object> variables = getMap(processEngine, scanner, task);
                 taskService.complete(task.getId(), variables);
