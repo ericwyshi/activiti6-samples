@@ -1,4 +1,4 @@
-package com.lwc.activiti;
+package com.lwc.activiti.config;
 
 import org.activiti.engine.ProcessEngineConfiguration;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
 /**
- * @author liweicheng
+ * @author eddie.lee
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti
  * @ClassName configTest
