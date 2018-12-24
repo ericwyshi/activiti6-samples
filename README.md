@@ -7,3 +7,7 @@
 #### 4-5 数据库配置-dbconfig_code 
 - 添加 ConfigDBTest 测试类
 - 添加 activiti_druid.cfg.xml 数据库配置文件
+
+#### 4-7 日志记录配置-logging_mdc
+- add class : MDCCommandInvoker ConfigMDCTest
+- add xml : activiti_mdc.cfg.xml my-process.bpmn20.xml
