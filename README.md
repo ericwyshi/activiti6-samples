@@ -28,3 +28,6 @@
 - activiti_interceptor.cfg.xml
 - ConfigInterceptorTest DurationCommandInterceptor
   
+#### 4-16 作业执行器配置-job-2
+- ConfigJobTest JobEventListener
+- activiti_job.cfg.xml my-process_job.bpmn20.xml
