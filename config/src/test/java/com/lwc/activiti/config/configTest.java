@@ -10,14 +10,14 @@ import org.slf4j.Logger;
  * @author eddie.lee
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti
- * @ClassName configTest
+ * @ClassName ConfigTest
  * @description
  * @date created in 2018-12-24 16:10
  * @modified by
  */
-public class configTest {
+public class ConfigTest {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(configTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ConfigTest.class);
 
     @Test
     public void testConfig1() {
