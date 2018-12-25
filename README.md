@@ -12,6 +12,10 @@
 - add class : MDCCommandInvoker ConfigMDCTest
 - add xml : activiti_mdc.cfg.xml my-process.bpmn20.xml
 
-#### 4-7 4-8 历史记录配置
+#### 4-8 4-9 历史记录配置
 - add xml activiti_history.cfg.xml
 - add class ConfigHistoryLevelTest
+
+#### 4-10 事件处理及监听器配置-eventlog
+- add class ConfigEventLogTest
+- add xml activiti_eventlog.cfg.xml
