@@ -31,3 +31,7 @@
 #### 4-16 作业执行器配置-job-2
 - ConfigJobTest JobEventListener
 - activiti_job.cfg.xml my-process_job.bpmn20.xml
+
+#### 4-19 Activiti与spring集成-3
+- ConfigSpringTest HelloBean
+- activiti-context.xml my-process_spring.bpmn20.xml
