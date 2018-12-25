@@ -23,4 +23,8 @@
 #### 4-11 事件处理及监听器配置-eventLinstener
 - ConfigEventListenerTest CustomEventListener ProcessEventListener
 - activiti_eventlistener.cfg.xml
+
+#### 4-14 命令拦截器配置-command-2 
+- activiti_interceptor.cfg.xml
+- ConfigInterceptorTest DurationCommandInterceptor
   
