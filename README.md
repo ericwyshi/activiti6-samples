@@ -19,3 +19,8 @@
 #### 4-10 事件处理及监听器配置-eventlog
 - add class ConfigEventLogTest
 - add xml activiti_eventlog.cfg.xml
+
+#### 4-11 事件处理及监听器配置-eventLinstener
+- ConfigEventListenerTest CustomEventListener ProcessEventListener
+- activiti_eventlistener.cfg.xml
+  
