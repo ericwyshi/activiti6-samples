@@ -35,3 +35,9 @@
 #### 4-19 Activiti与spring集成-3
 - ConfigSpringTest HelloBean
 - activiti-context.xml my-process_spring.bpmn20.xml
+
+#### 5-3 流程存储服务-RepositoryService
+- 新建coreapi子项目 复制config的 activiti.cfg.xml logback.xml second_approve.bpmn20.xml my-process.bpmn20.xml（test/resources）
+- RepositoryServiceTest
+
+#### 5-4、5-5、5-6 流程运行 控制服务-RuntimeService
