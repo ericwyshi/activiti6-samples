@@ -41,3 +41,7 @@
 - RepositoryServiceTest
 
 #### 5-4、5-5、5-6 流程运行 控制服务-RuntimeService
+
+#### 5-9 任务管理服务-TaskService
+- TaskServiceTest
+- my-process-task.bpmn20.xml

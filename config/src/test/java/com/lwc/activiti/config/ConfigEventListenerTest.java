@@ -32,7 +32,7 @@ public class ConfigEventListenerTest {
     public ActivitiRule activitiRule = new ActivitiRule("activiti_eventlistener.cfg.xml");
 
     @Test
-    @Deployment(resources = {"cn/lucasma/activiti/my-process.bpmn20.xml"})
+    @Deployment(resources = {"com/lwc/activiti/my-process.bpmn20.xml"})
     public void test() {
         // 打开 MDC
         LogMDC.setMDCEnabled(true);
