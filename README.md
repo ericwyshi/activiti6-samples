@@ -79,3 +79,9 @@
 
 #### 6-3 身份数据表设计
 - DbIdentityTest
+
+#### 6-5 运行时流程数据表设计-2
+- DbRuntimeTest
+- my-process-job.bpmn20.xml
+- my-process-message.bpmn20.xml
+- my-process-message-received.bpmn20.xml
