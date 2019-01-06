@@ -56,3 +56,9 @@
 #### 5-13 历史数据管理服务-HistoryService
 - HistoryServiceTest
 - activiti_history.cfg.xml
+
+#### 5-14 其它管理服务-OtherService 
+- MyCustomMapper
+- activiti_job.cfg.xml
+- test.ManagementServiceTest
+- test.my-process-job.bpmn20.xml
