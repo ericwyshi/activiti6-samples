@@ -62,3 +62,9 @@
 - activiti_job.cfg.xml
 - test.ManagementServiceTest
 - test.my-process-job.bpmn20.xml
+
+#### 6-1 通用数据表设计
+- 新建dbentity
+- DbConfigTest DbGeTest
+- activiti-mysql.cfg.xml
+- my-process.bpmn20.xml
