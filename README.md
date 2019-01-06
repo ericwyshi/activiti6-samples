@@ -68,3 +68,11 @@
 - DbConfigTest DbGeTest
 - activiti-mysql.cfg.xml
 - my-process.bpmn20.xml
+
+#### 6-2 流程定义存储表设计
+- DbRepositoryTest
+- com/lwc/activiti/my-process.bpmn20.xml
+- MyUnitTest
+- activiti.cfg.xml
+- second_approve.bpmn20.xml
+- logback.xml
