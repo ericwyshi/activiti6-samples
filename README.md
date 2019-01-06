@@ -85,3 +85,7 @@
 - my-process-job.bpmn20.xml
 - my-process-message.bpmn20.xml
 - my-process-message-received.bpmn20.xml
+
+#### 6-7 历史流程数据表设计-2
+- DbHistoryTest
+- activiti-mysql.cfg.xml 添加 （historyLevel， enableDatabaseEventLogging）
