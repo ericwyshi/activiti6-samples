@@ -14,6 +14,7 @@
 
         <property name="historyLevel" value="FULL"/>
         <property name="enableDatabaseEventLogging" value="true"/>
+
     </bean>
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
           init-method="init" destroy-method="close">
