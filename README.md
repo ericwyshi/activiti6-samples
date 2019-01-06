@@ -52,3 +52,7 @@
 #### 5-11 表单管理
 - FormServiceTest
 - my-process-form.bpmn20.xml
+
+#### 5-13 历史数据管理服务-HistoryService
+- HistoryServiceTest
+- activiti_history.cfg.xml
