@@ -9,7 +9,9 @@
         <property name="jdbcDriver" value="org.h2.Driver"/>
         <property name="jdbcUsername" value="sa"/>
         <property name="jdbcPassword" value=""/>
+        <!--异步执行器-->
         <property name="asyncExecutorActivate" value="true"/>
+        <!--开启可见日志-->
         <property name="enableVerboseExecutionTreeLogging" value="true"/>
 
     </bean>
