@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * @author eddie.lee
  * @ProjectName activiti6-samples
- * @description 定时任务
+ * @description *定时任务
  * @date created in 2019-02-12 15:25
  * @modified by
  */

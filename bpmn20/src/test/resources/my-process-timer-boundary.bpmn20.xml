@@ -12,10 +12,10 @@
 
         <startEvent id="startEvent" name="startEvent"/>
         <userTask id="commonTask" name="Common Task"/>
-        <!--定时任务-->
+        <!-- 定时任务 -->
         <boundaryEvent attachedToRef="commonTask" id="boundaryEvent" name="timer" cancelActivity="true">
             <timerEventDefinition>
-                <!--五秒钟运行-->
+                <!-- 五秒钟运行 -->
                 <timeDuration>PT5S</timeDuration>
             </timerEventDefinition>
         </boundaryEvent>
