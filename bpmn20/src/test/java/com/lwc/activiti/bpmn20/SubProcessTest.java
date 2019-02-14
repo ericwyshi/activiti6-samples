@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * @author eddie.lee
  * @ProjectName activiti6-samples
- * @description
+ * @description BPMN2.0子流程
  * @date created in 2019-02-12 15:25
  * @modified by
  */

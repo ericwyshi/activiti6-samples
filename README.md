@@ -112,3 +112,8 @@
 #### 7-11、7-12、7-13 BPMN2.0顺序流和网关
 - GatewayTest
 - my-process-exclusiveGateway1.bpmn20.xml my-process-parallelGateway1.bpmn20.xml
+
+#### 7-14、7-15、7-16、7-17 BPMN2.0子流程
+- MyPayJavaDelegate MyTakeJavaDelegate 
+- SubProcessTest
+- my-process-subprocess{1-4}.bpmn20.xml

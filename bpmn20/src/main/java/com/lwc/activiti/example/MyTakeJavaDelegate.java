@@ -13,7 +13,7 @@ import java.io.Serializable;
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti.example
  * @ClassName MyTakeJavaDelegate
- * @description
+ * @description BPMN2.0子流程
  * @date created in 2019-02-12 15:25
  * @modified by
  */
