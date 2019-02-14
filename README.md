@@ -108,3 +108,7 @@
 - MyJavaBean MyActivityBehavior MyJavaDelegate
 - activiti-context.xml
 - my-process-servicetask{1-5}.bpmn20.xml
+
+#### 7-11、7-12、7-13 BPMN2.0顺序流和网关
+- GatewayTest
+- my-process-exclusiveGateway1.bpmn20.xml my-process-parallelGateway1.bpmn20.xml
