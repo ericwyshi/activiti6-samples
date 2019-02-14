@@ -102,3 +102,9 @@
 #### 7-7、7-8 BPMN2.0脚本任务
 - ScriptTaskTest
 - my-process-scripttask1.bpmn20.xml my-process-scripttask2.bpmn20.xml my-process-scripttask3.bpmn20.xml
+
+#### 7-9、7-10 BPMN2.0服务任务
+- ServiceTaskSpringTest ServiceTaskTest
+- MyJavaBean MyActivityBehavior MyJavaDelegate
+- activiti-context.xml
+- my-process-servicetask{1-5}.bpmn20.xml
