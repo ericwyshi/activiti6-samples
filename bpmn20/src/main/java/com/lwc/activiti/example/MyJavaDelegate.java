@@ -13,11 +13,12 @@ import java.io.Serializable;
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti.example
  * @ClassName MyJavaDelegate
- * @description
+ * @description BPMN2.0服务任务
  * @date created in 2019-02-12 15:24
  * @modified by
  */
 public class MyJavaDelegate implements JavaDelegate, Serializable {
+
     private static final Logger logger = LoggerFactory.getLogger(MyJavaDelegate.class);
 
     private Expression name;

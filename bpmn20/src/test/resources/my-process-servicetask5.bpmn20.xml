@@ -14,8 +14,7 @@
 		<serviceTask id="someTask" name="Service Task"
 					 activiti:expression="${myJavaBean.sayHello()}">
 		</serviceTask>
-		<serviceTask id="someTask2" name="Service Task"
-					 activiti:expression="${myJavaBean.name}">
+		<serviceTask id="someTask2" name="Service Task" activiti:expression="${myJavaBean.name}">
 		</serviceTask>
 		<sequenceFlow id="flow2" sourceRef="someTask" targetRef="someTask2" />
 		<sequenceFlow id="flow3" sourceRef="someTask2" targetRef="end" />

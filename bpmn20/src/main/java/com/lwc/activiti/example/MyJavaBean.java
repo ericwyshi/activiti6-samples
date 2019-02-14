@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti.example
  * @ClassName MyJavaBean
- * @description
+ * @description BPMN2.0服务任务
  * @date created in 2019-02-12 15:24
  * @modified by
  */

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti.example
  * @ClassName MyActivityBehavior
- * @description
+ * @description BPMN2.0服务任务
  * @date created in 2019-02-12 15:23
  * @modified by
  */

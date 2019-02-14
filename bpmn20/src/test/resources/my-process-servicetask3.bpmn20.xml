@@ -11,8 +11,7 @@
 		<startEvent id="start" />
 		<sequenceFlow id="flow1" sourceRef="start" targetRef="someTask" />
 
-		<serviceTask id="someTask" name="Service Task"
-					 activiti:class="com.lwc.activiti.example.MyJavaDelegate" >
+		<serviceTask id="someTask" name="Service Task" activiti:class="com.lwc.activiti.example.MyJavaDelegate" >
 			<extensionElements>
 				<activiti:field name="name" stringValue="The Java Delegate"/>
 				<activiti:field name="desc">
