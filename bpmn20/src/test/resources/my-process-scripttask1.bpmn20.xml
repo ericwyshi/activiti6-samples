@@ -12,8 +12,7 @@
         <startEvent id="start" />
         <sequenceFlow id="flow1" sourceRef="start" targetRef="someTask" />
 
-        <scriptTask id="someTask" name="Script Task"
-                    scriptFormat="groovy">
+        <scriptTask id="someTask" name="Script Task" scriptFormat="groovy">
             <script>
                 def myValue = "value123"
                 execution.setVariable("myKey",myValue)

@@ -98,3 +98,7 @@
 #### 7-5、7-6 BPMN2.0流程任务-用户任务
 - my-process-usertask.bpmn20.xml、my-process-usertask2.bpmn20.xml
 - UserTaskTest、MyTaskListener
+
+#### 7-7、7-8 BPMN2.0脚本任务
+- ScriptTaskTest
+- my-process-scripttask1.bpmn20.xml my-process-scripttask2.bpmn20.xml my-process-scripttask3.bpmn20.xml
