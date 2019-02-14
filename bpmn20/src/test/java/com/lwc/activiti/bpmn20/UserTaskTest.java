@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @author eddie.lee
  * @ProjectName activiti6-samples
- * @description
+ * @description 用户任务
  * @date created in 2019-02-12 15:25
  * @modified by
  */
@@ -41,10 +41,14 @@ public class UserTaskTest {
         task = taskService.createTaskQuery().taskCandidateGroup("group1").singleResult();
         logger.info("find by group1 task = {}", task);
 
-
+        // 代理人
         taskService.claim(task.getId(), "user2");
         logger.info("claim task.id = {} by user2", task.getId());
 
+        // 不推荐, 这个方法不会校验
+        // taskService.setAssignee(task.getId(),"user2");
+
+        //推荐  使用候选人或者指定委托人
         task = taskService.createTaskQuery().taskCandidateOrAssigned("user1").singleResult();
         logger.info("find by user1 task ={}", task);
         task = taskService.createTaskQuery().taskCandidateOrAssigned("user2").singleResult();
@@ -56,6 +60,8 @@ public class UserTaskTest {
         ProcessInstance processInstance = activitiRule.getRuntimeService().startProcessInstanceByKey("my-process");
 
         TaskService taskService = activitiRule.getTaskService();
+
+        // 查询候选人或者指定委托人
         Task task = taskService.createTaskQuery().taskCandidateUser("user1").singleResult();
         logger.info("find by user1 task ={}", task);
         taskService.complete(task.getId());

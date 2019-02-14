@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * @ProjectName activiti6-samples
  * @Package com.lwc.activiti.example
  * @ClassName MyTaskListener
- * @description
+ * @description 用户任务
  * @date created in 2019-02-12 15:25
  * @modified by
  */

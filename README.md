@@ -89,3 +89,12 @@
 #### 6-7 历史流程数据表设计-2
 - DbHistoryTest
 - activiti-mysql.cfg.xml 添加 （historyLevel， enableDatabaseEventLogging）
+
+#### 7-2 BPMN2.0流程事件-事件分类
+- 开启异步 activiti.cfg.xml
+- 定时任务测试类 TimerEventTest
+- 流程定义 my-process-timer-boundary.bpmn20.xml
+
+#### 7-5、7-6 BPMN2.0流程任务-用户任务
+- my-process-usertask.bpmn20.xml、my-process-usertask2.bpmn20.xml
+- UserTaskTest、MyTaskListener
